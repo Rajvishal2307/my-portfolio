@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1> Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="level-link" data-level="1">Home</a></li>
+                    <li><a href="#about" class="level-link" data-level="2">About</a></li>
+                    <li><a href="#projects" class="level-link" data-level="3">Projects</a></li>
+                    <li><a href="#achievements" class="level-link" data-level="4">Achievements</a></li>
+                    <li><a href="#education" class="level-link" data-level="5">Education</a></li>
+                    <li><a href="#contact" class="level-link" data-level="6">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Progress Bar -->
+    <div id="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="container">
+            <h3>Welcome to My Level</h3>
+            <h2>Front-End Programmer</h2>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                
+                <div class="about-text">
+                    <p>
+                        Hello! I'm <b>Vishal Raj</b>, an enthusiastic Frontend Developer who recently embarked on a
+                        journey to turn my passion for web development into a professional career. I have a solid
+                        foundation in
+                        HTML, CSS, and JavaScript, and I'm excited about building beautiful, user-friendly websites.
+                    </p>
+                    <p>
+                        During my studies, I completed several projects that helped me develop a keen eye for detail and
+                        an
+                        understanding of modern web technologies. I am familiar with responsive design principles and
+                        have
+                        hands-on experience with frameworks like Bootstrap and libraries like jQuery.
+                    </p>
+                    <p>
+                        I am committed to continuous learning and staying updated with industry trends. I have recently
+                        started exploring more advanced topics such as React.js and Vue.js, and I'm eager to apply these
+                        skills in real-world projects.
+                    </p>
+                    <p>
+                        Outside of coding, I enjoy participating in tech meetups, contributing to online communities,
+                        and
+                        working on personal projects to expand my skill set. I am always looking for new opportunities
+                        to
+                        grow and collaborate with others in the tech industry.
+                    </p>
+                    <p>
+                        Thank you for visiting my portfolio. If you have any questions or would like to connect, please
+                        feel free to <a href="#contact">reach out</a>!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <ul>
+                    <li>Calculator</li>
+                    <li>Calendar</li>
+                    <li>Stone Paper Scissor</li>
+                    <li>Tic Tac Toe</li>
+                    <li>Connecting 4- games</li>
+                    <li>ToDo App</li>
+                    <li>Travel Management System</li>
+                    <li>E-Commerce website</li>
+                    <li>Hospital Management System</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-list">
+                <ul>
+                    <li>
+                        <b>Intern at InternPe</b>
+                        <ul>
+                            <li>18 May 2024 - 18 June 2024</li>
+                            <li>Write technical articles on programming related topics.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-list">
+                <ul>
+                    <li>
+                        <b>10th Grade</b>
+                        <ul>
+                            <li>Institution: Kendriya Vidalaya Sector 8 RK Puram New Delhi 110022</li>
+                            <li>Year: 2019</li>
+                            <li>Details: Achieved an overall percentage of 78%</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>12th Grade</b>
+                        <ul>
+                            <li>Institution: Kendriya Vidalaya Sector 8 RK Puram New Delhi 110022</li>
+                            <li>Year: 2021</li>
+                            <li>Details: Completed with a focus in Science stream, scoring high in Physics and
+                                Mathematics (overall percentage 80%)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>B.Tech Computer Science And Engineering</b>
+                        <ul>
+                            <li>Institution: Vivekananda Global University</li>
+                            <li>Year: 2021- present</li>
+                            <li>Details: After completed 6th Semester , Scoring 7.68 CGPA</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Resume -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-content">
+                <p>You can download my full resume <a href="resume.pdf.jpg" target="_blank">here</a>.</p>
+                <h3>Summary</h3>
+                <p>A highly motivated Front-End Developer with experience in HTML, CSS, JavaScript.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">Email</a>
+                <a href="#">Website</a>
+            </div>
+            <p>© Copyright 2050 by nobody. All rights reserved.</p>
+            <a href="#header" class="back-to-top">TOP</a>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
